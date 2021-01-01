@@ -14,8 +14,8 @@
 /* Tunables */
 static unsigned short enabled = DEFAULT_ENABLE;
 static unsigned short daytime_r = MAX_SCALE;
-static unsigned short daytime_g = MAX_SCALE;
-static unsigned short daytime_b = MAX_SCALE;
+static unsigned short daytime_g = MAX_SCALE * 99 / 100;
+static unsigned short daytime_b = MAX_SCALE * 98 / 100;
 static unsigned short target_r = MAX_SCALE;
 static unsigned short target_g = MAX_SCALE * 79 / 100;
 static unsigned short target_b = MAX_SCALE * 59 / 100;
